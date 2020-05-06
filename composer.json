@@ -1,0 +1,24 @@
+{
+    "name": "yosmy/registration-log",
+    "description": "",
+    "require": {
+        "php": ">=7.2",
+        "yosmy/event": "@dev",
+        "yosmy/registration": "@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "Yosmy\\": [
+                "src"
+            ]
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://php.yosmy.com"
+        }
+    ],
+    "prefer-stable": true,
+    "minimum-stability": "dev"
+}
